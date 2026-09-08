@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ceylon local development and verification
+/.data/
+/playwright-report/
+/test-results/
+/.next-integration/
+!.env.example
